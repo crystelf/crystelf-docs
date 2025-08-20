@@ -1,0 +1,14 @@
+:root {
+    --vp-c-card-border-radius: 16px;
+}
+
+.VPFeature {
+    border-radius: var(--vp-c-card-border-radius);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.VPFeature:hover {
+    transform: translateY(-4px);
+    transition: transform 0.4s ease;
+}
