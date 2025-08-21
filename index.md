@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 立即开始
-      link: /examples/markdown-examples
+      link: /core
     - theme: alt
       text: 使用协议
-      link: /examples/api-examples
+      link: /licenses
   image:
     src: /public/icon/crystelf.png
     akt: Crystelf Logo
