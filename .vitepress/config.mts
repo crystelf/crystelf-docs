@@ -3,7 +3,10 @@ export default defineConfig({
   title: 'Crystelf Docs',
   description: '晶灵相关服务帮助文档',
   base: '/',
-  head: [['link', { rel: 'icon', href: '/icon/crystelf-logo.svg' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/icon/crystelf-logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/icon/crystelf-logo.png' }],
+  ],
   locales: {
     root: {
       label: '简体中文',
