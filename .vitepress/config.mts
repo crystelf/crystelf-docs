@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Crystelf Docs',
   description: '晶灵相关服务帮助文档',
+  base: '/',
   head: [['link', { rel: 'icon', href: '/icon/crystelf-logo.svg' }]],
   locales: {
     root: {
