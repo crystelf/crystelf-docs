@@ -25,16 +25,16 @@ export default defineConfig({
               text: '晶灵智能机器人文档',
               items: [
                 { text: '概述', link: '/bot/' },
+                { text: '功能速查', link: '/bot/guide/' },
                 {
-                  text: '功能速查',
+                  text: '群管功能',
                   items: [
                     { text: '1', link: '/bot/' },
                     { text: '2', link: '/bot/setup' },
-                    { text: '3', link: '/bot/guide' },
                   ],
                 },
-                { text: '关于使用', link: '/bot/setup' },
-                { text: '答疑', link: '/bot/guide' },
+                { text: '关于使用', link: '/bot/about-use' },
+                { text: '答疑', link: '/bot/issue' },
               ],
             },
           ],
@@ -43,12 +43,12 @@ export default defineConfig({
               text: '晶灵核心文档',
               items: [
                 { text: '概述', link: '/core/' },
+                { text: '接口速查', link: '/core/guide' },
                 {
-                  text: 'API 接口',
+                  text: '开放接口',
                   items: [
-                    { text: '1', link: '/core/' },
-                    { text: '2', link: '/core/setup' },
-                    { text: '3', link: '/core/guide' },
+                    { text: '2', link: '/core/1' },
+                    { text: '3', link: '/core/2' },
                   ],
                 },
               ],
@@ -56,18 +56,18 @@ export default defineConfig({
           ],
           '/fograin/': [
             {
-              text: '雾雨服务器游玩指南',
+              text: '雾雨服务器指南',
               items: [
-                { text: '服务器介绍', link: '/core/' },
+                { text: '服务器介绍', link: '/fograin/about' },
                 {
-                  text: '常用命令',
+                  text: '服务器插件使用说明',
                   items: [
-                    { text: '1', link: '/core/' },
-                    { text: '2', link: '/core/setup' },
-                    { text: '3', link: '/core/guide' },
+                    { text: '1', link: '/fograin/' },
+                    { text: '2', link: '/fograin/setup' },
+                    { text: '3', link: '/fograin/guide' },
                   ],
                 },
-                { text: '致谢', link: '/core/dev-guide' },
+                { text: '致谢', link: '/fograin/thanks' },
               ],
             },
           ],
