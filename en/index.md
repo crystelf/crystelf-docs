@@ -14,7 +14,7 @@ hero:
       text: Terms of Use
       link: /licenses
   image:
-    src: /public/icon/crystelf.png
+    src: /icon/crystelf.png
     akt: Crystelf Logo
 
 features:
