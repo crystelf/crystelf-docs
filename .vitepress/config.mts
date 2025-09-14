@@ -29,8 +29,8 @@ export default defineConfig({
                 {
                   text: '群管功能',
                   items: [
-                    { text: '1', link: '/bot/' },
-                    { text: '2', link: '/bot/setup' },
+                    { text: '1', link: '/bot/guide/' },
+                    { text: '2', link: '/bot/guide/' },
                   ],
                 },
                 { text: '关于使用', link: '/bot/about-use' },
