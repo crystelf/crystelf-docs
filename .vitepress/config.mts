@@ -25,12 +25,12 @@ export default defineConfig({
               text: '晶灵智能机器人文档',
               items: [
                 { text: '概述', link: '/bot/' },
-                { text: '功能速查', link: '/bot/guide/' },
+                { text: '功能速查', link: '/bot/guide' },
                 {
                   text: '群管功能',
                   items: [
-                    { text: '1', link: '/bot/guide/' },
-                    { text: '2', link: '/bot/guide/' },
+                    { text: '1', link: '/bot/guide' },
+                    { text: '2', link: '/bot/guide' },
                   ],
                 },
                 { text: '关于使用', link: '/bot/about-use' },

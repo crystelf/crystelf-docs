@@ -49,8 +49,8 @@
 ---
 
 ## 让我们开始吧!
-- [功能速查](/bot/guide/)
-- [群管功能](/bot/setup)
+- [功能速查](/bot/guide)
+- [群管功能](/bot/guide)
 - [关于使用](/bot/about-use)
 - [答疑](/bot/issue)  
 
